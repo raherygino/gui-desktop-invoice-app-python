@@ -88,14 +88,11 @@ Left Menu */
 	background-position: left center;
 	background-repeat: no-repeat;
 	border: none;
-	border-left: 20px solid transparent;
-	background-color: #f2f6ff;
-	text-align: left;
-	padding-left: 44px;
-	color: #1553c9;
+	border-left: 15px solid transparent;
+	background-color: #ffffff;
 }
 #toggleButton:hover {
-	background-color: #1553c9;
+	background-color: #f2f6ff;
 }
 #toggleButton:pressed {	
 	background-color: #f2f6ff;
@@ -111,7 +108,6 @@ Extra Tab */
 #extraLeftBox {	
 	background-color: #f2f6ff;
 	border-right: 1px solid rgb(224, 224, 224);
-	border-left: 1px solid rgb(224, 224, 224);
 	color: #2f93e1;
 }
 #extraTopBg{	
@@ -152,7 +148,7 @@ Extra Tab */
 	color: #2f93e1;
 }
 #extraTopMenu .QPushButton:hover {
-	background-color: #5d6c99;
+	background-color: #ffffff;
 }
 #extraTopMenu .QPushButton:pressed {	
 	background-color: rgb(161, 196, 249);
@@ -177,7 +173,9 @@ Content App */
 #rightButtons .QPushButton:pressed { background-color: #2f93e1; border-style: solid; border-radius: 4px; }
 
 /* Theme Settings */
-#extraRightBox { background-color: #f5f8ff; }
+#extraRightBox { 
+	background-color: #ffffff;
+}
 
 /* Bottom Bar */
 #bottomBar { background-color: #beceff }

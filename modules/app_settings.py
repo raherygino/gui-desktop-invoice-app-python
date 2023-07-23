@@ -8,8 +8,8 @@ class Settings():
     TIME_ANIMATION = 500
 
     # BTNS LEFT AND RIGHT BOX COLORS
-    BTN_LEFT_BOX_COLOR = "background-color: #2f93e1;"
-    BTN_RIGHT_BOX_COLOR = "background-color: #2f93e1;"
+    BTN_LEFT_BOX_COLOR = "background-color: #abcdff;"
+    BTN_RIGHT_BOX_COLOR = "background-color: #abcdff;"
 
     # MENU SELECTED STYLESHEET
     MENU_SELECTED_STYLESHEET = """

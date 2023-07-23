@@ -127,14 +127,11 @@ class Ui_MainWindow(object):
 "	background-position: left center;\n"
 "	background-repeat: no-repeat;\n"
 "	border: none;\n"
-"	border-left: 20px solid transparent;\n"
-"	background-color: #f2f6ff;\n"
-"	text-align: left;\n"
-"	padding-left: 44px;\n"
-"	color: #1553c9;\n"
+"	border-left: 15px solid transparent;\n"
+"	background-color: #ffffff;\n"
 "}\n"
 "#toggleButton:hover {\n"
-"	background-color: #1553c9;\n"
+"	background-color: #f2f6ff;\n"
 "}\n"
 "#toggleButton:pressed {	\n"
 "	background-color: #f2f6ff;\n"
@@ -149,13 +146,12 @@ class Ui_MainWindow(object):
 "Extra Tab */\n"
 "#extraLeftBox {	\n"
 "	background-color: #f2f6ff;\n"
-"	border-right: 1px solid rg"
-                        "b(224, 224, 224);\n"
-"	border-left: 1px solid rgb(224, 224, 224);\n"
+"	border-right: 1px solid rgb(224, 224, 224);\n"
 "	color: #2f93e1;\n"
 "}\n"
 "#extraTopBg{	\n"
-"	background-color: #f2f6ff;\n"
+"	b"
+                        "ackground-color: #f2f6ff;\n"
 "	border-right: 1px solid rgb(224, 224, 224);\n"
 "	border-left: 1px solid rgb(224, 224, 224);\n"
 "}\n"
@@ -182,18 +178,18 @@ class Ui_MainWindow(object):
 "\n"
 "/* Extra Top Menus */\n"
 "#extraTopMenu .QPushButton {\n"
-"	back"
-                        "ground-position: left center;\n"
+"	background-position: left center;\n"
 "	background-repeat: no-repeat;\n"
 "	border: none;\n"
-"	border-left: 22px solid transparent;\n"
+"	border-left: 22px solid tran"
+                        "sparent;\n"
 "	background-color:transparent;\n"
 "	text-align: left;\n"
 "	padding-left: 44px;\n"
 "	color: #2f93e1;\n"
 "}\n"
 "#extraTopMenu .QPushButton:hover {\n"
-"	background-color: #5d6c99;\n"
+"	background-color: #ffffff;\n"
 "}\n"
 "#extraTopMenu .QPushButton:pressed {	\n"
 "	background-color: rgb(161, 196, 249);\n"
@@ -215,11 +211,13 @@ class Ui_MainWindow(object):
 "/* Top Buttons */\n"
 "#rightButtons .QPushButton { background-color: rgba(255, 255, 255, 0); border: none;  border-radius: 5px; }\n"
 "#rightButtons .QPushButton:hover { background-color: #f2f6ff; border-style: solid; border-radius: 4px; }\n"
-"#rightButtons .QPushButton:pressed { bac"
-                        "kground-color: #2f93e1; border-style: solid; border-radius: 4px; }\n"
+"#rightButtons .QPushButton:pressed { background-color: #2f93e1; border-style: solid; border-radius: 4px; }\n"
 "\n"
 "/* Theme Settings */\n"
-"#extraRightBox { background-color: #f5f8ff; }\n"
+"#extraRightBox {"
+                        " \n"
+"	background-color: #ffffff;\n"
+"}\n"
 "\n"
 "/* Bottom Bar */\n"
 "#bottomBar { background-color: #beceff }\n"
@@ -248,12 +246,12 @@ class Ui_MainWindow(object):
 "/* /////////////////////////////////////////////////////////////////////////////////////////////////\n"
 "QTableWidget */\n"
 "QTableWidget {	\n"
-"	ba"
-                        "ckground-color: transparent;\n"
+"	background-color: transparent;\n"
 "	padding: 10px;\n"
 "	border-radius: 5px;\n"
 "	gridline-color: #9faeda;\n"
-"	outline: none;\n"
+""
+                        "	outline: none;\n"
 "}\n"
 "QTableWidget::item{\n"
 "	border-color: #9faeda;\n"
@@ -291,12 +289,12 @@ class Ui_MainWindow(object):
 "/* /////////////////////////////////////////////////////////////////////////////////////////////////\n"
 "LineEdit */\n"
 "QLineEdit {\n"
-"	bac"
-                        "kground-color: #ffffff;\n"
+"	background-color: #ffffff;\n"
 "	border-radius: 2px;\n"
 "	border: 1px solid #5f5f5f;\n"
 "	padding-left: 10px;\n"
-"	padding-bottom: 5px;\n"
+""
+                        "	padding-bottom: 5px;\n"
 "	padding-top: 5px;\n"
 "	selection-color: rgb(255, 255, 255);\n"
 "	selection-background-color: #2f93e1;\n"
@@ -332,10 +330,10 @@ class Ui_MainWindow(object):
 "	border: 2px solid #2f93e1;\n"
 "}\n"
 "\n"
-"/* ////////////////"
-                        "/////////////////////////////////////////////////////////////////////////////////\n"
+"/* /////////////////////////////////////////////////////////////////////////////////////////////////\n"
 "ScrollBars */\n"
-"QScrollBar:horizontal {\n"
+"QScrol"
+                        "lBar:horizontal {\n"
 "	border: none;\n"
 "	background: #ffffff;\n"
 "	height: 8px;\n"
@@ -369,14 +367,14 @@ class Ui_MainWindow(object):
 "{\n"
 "	background: none;\n"
 "}\n"
-"QScrollBar::add-page:horizontal, QScrollBar::sub-pa"
-                        "ge:horizontal\n"
+"QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal\n"
 "{\n"
 "	background: none;\n"
 "}\n"
 "QScrollBar:vertical {\n"
 "	border: none;\n"
-"	background-color: #ffffff;\n"
+"	background-"
+                        "color: #ffffff;\n"
 "	width: 8px;\n"
 "	margin: 21px 0 21px 0;\n"
 "	border-radius: 0px;\n"
@@ -412,9 +410,9 @@ class Ui_MainWindow(object):
 "	background: none;\n"
 "}\n"
 "\n"
-"/* //"
-                        "///////////////////////////////////////////////////////////////////////////////////////////////\n"
-"CheckBox */\n"
+"/* /////////////////////////////////////////////////////////////////////////////////////////////////\n"
+"CheckBox *"
+                        "/\n"
 "QCheckBox::indicator {\n"
 "	border: 3px solid #5e5e5e;\n"
 "	width: 15px;\n"
@@ -448,10 +446,10 @@ class Ui_MainWindow(object):
 "	border: 3px solid #2f93e1;\n"
 "}\n"
 "\n"
-"/* /////////////"
-                        "////////////////////////////////////////////////////////////////////////////////////\n"
+"/* /////////////////////////////////////////////////////////////////////////////////////////////////\n"
 "ComboBox */\n"
-"QComboBox{\n"
+"QComb"
+                        "oBox{\n"
 "	background-color: #ffffff;\n"
 "	border-radius: 2px;\n"
 "	border: 1px solid #505050;\n"
@@ -483,13 +481,13 @@ class Ui_MainWindow(object):
 "Sliders */\n"
 "QSlider::groove:horizontal {\n"
 "	border-radius: 5px;\n"
-"	heigh"
-                        "t: 10px;\n"
+"	height: 10px;\n"
 "	margin: 0px;\n"
 "	background-color: #ffffff;\n"
 "}\n"
 "QSlider::handle:horizontal {\n"
-"	background-color: #2f93e1;  \n"
+"	backgro"
+                        "und-color: #2f93e1;  \n"
 "	border: none;\n"
 "	height: 10px;\n"
 "	width: 10px;\n"
@@ -527,11 +525,11 @@ class Ui_MainWindow(object):
 "	background-color: #2f93e1;\n"
 "}\n"
 "\n"
-"/* //////////////////////////////////////////////////////////"
-                        "///////////////////////////////////////\n"
+"/* /////////////////////////////////////////////////////////////////////////////////////////////////\n"
 "CommandLinkButton */\n"
 "#pagesContainer QCommandLinkButton {	\n"
-"	color: #2f93e1;\n"
+""
+                        "	color: #2f93e1;\n"
 "	border-radius: 5px;\n"
 "	padding: 5px;\n"
 "	border: 2px solid #2f93e1;\n"
@@ -652,34 +650,21 @@ class Ui_MainWindow(object):
         self.verticalLayout_4.setObjectName(u"verticalLayout_4")
         self.verticalLayout_4.setSizeConstraint(QLayout.SetNoConstraint)
         self.verticalLayout_4.setContentsMargins(0, 2, 0, 0)
-        self.toggleButton = QPushButton(self.toggleBox)
-        self.toggleButton.setObjectName(u"toggleButton")
-        sizePolicy = QSizePolicy(QSizePolicy.Expanding, QSizePolicy.Fixed)
-        sizePolicy.setHorizontalStretch(0)
-        sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.toggleButton.sizePolicy().hasHeightForWidth())
-        self.toggleButton.setSizePolicy(sizePolicy)
-        self.toggleButton.setMinimumSize(QSize(0, 45))
-        self.toggleButton.setMaximumSize(QSize(16777215, 16777215))
-        self.toggleButton.setFont(font)
-        self.toggleButton.setCursor(QCursor(Qt.PointingHandCursor))
-        self.toggleButton.setLayoutDirection(Qt.LeftToRight)
-        self.toggleButton.setStyleSheet(u"background-image: url(:/resources/images/icons/icon_menu_black.png);")
-
-        self.verticalLayout_4.addWidget(self.toggleButton)
-
 
         self.verticalLayout_8.addWidget(self.toggleBox)
 
         self.btn_home = QPushButton(self.topMenu)
         self.btn_home.setObjectName(u"btn_home")
+        sizePolicy = QSizePolicy(QSizePolicy.Expanding, QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.btn_home.sizePolicy().hasHeightForWidth())
         self.btn_home.setSizePolicy(sizePolicy)
         self.btn_home.setMinimumSize(QSize(0, 45))
         self.btn_home.setFont(font)
         self.btn_home.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_home.setLayoutDirection(Qt.LeftToRight)
-        self.btn_home.setStyleSheet(u"background-image: url(:/resources/images/icons/cil-home-black.png);")
+        self.btn_home.setStyleSheet(u"background-image: url(:/resources/images/icons/icon_apps_black.png);")
 
         self.verticalLayout_8.addWidget(self.btn_home)
 
@@ -773,7 +758,7 @@ class Ui_MainWindow(object):
         self.extraCloseColumnBtn.setMaximumSize(QSize(28, 28))
         self.extraCloseColumnBtn.setCursor(QCursor(Qt.PointingHandCursor))
         icon = QIcon()
-        icon.addFile(u"images/icons/icon_close_black.png", QSize(), QIcon.Normal, QIcon.Off)
+        icon.addFile(u":/resources/images/icons/cil-x-black.png", QSize(), QIcon.Normal, QIcon.Off)
         self.extraCloseColumnBtn.setIcon(icon)
         self.extraCloseColumnBtn.setIconSize(QSize(20, 20))
 
@@ -809,7 +794,7 @@ class Ui_MainWindow(object):
         self.btn_more.setFont(font)
         self.btn_more.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_more.setLayoutDirection(Qt.LeftToRight)
-        self.btn_more.setStyleSheet(u"background-image: url(:/resources/images/icons/icon_settings_black.png);")
+        self.btn_more.setStyleSheet(u"background-image: url(:/resources/images/icons/cil-save-black.png);")
 
         self.verticalLayout_11.addWidget(self.btn_more)
 
@@ -860,7 +845,8 @@ class Ui_MainWindow(object):
         self.contentTopBg.setMinimumSize(QSize(0, 50))
         self.contentTopBg.setMaximumSize(QSize(16777215, 50))
         self.contentTopBg.setFrameShape(QFrame.NoFrame)
-        self.contentTopBg.setFrameShadow(QFrame.Raised)
+        self.contentTopBg.setFrameShadow(QFrame.Plain)
+        self.contentTopBg.setLineWidth(0)
         self.horizontalLayout = QHBoxLayout(self.contentTopBg)
         self.horizontalLayout.setSpacing(0)
         self.horizontalLayout.setObjectName(u"horizontalLayout")
@@ -879,6 +865,19 @@ class Ui_MainWindow(object):
         self.horizontalLayout_3.setSpacing(0)
         self.horizontalLayout_3.setObjectName(u"horizontalLayout_3")
         self.horizontalLayout_3.setContentsMargins(0, 0, 0, 0)
+        self.toggleButton = QPushButton(self.leftBox)
+        self.toggleButton.setObjectName(u"toggleButton")
+        sizePolicy.setHeightForWidth(self.toggleButton.sizePolicy().hasHeightForWidth())
+        self.toggleButton.setSizePolicy(sizePolicy)
+        self.toggleButton.setMinimumSize(QSize(50, 50))
+        self.toggleButton.setMaximumSize(QSize(45, 16777215))
+        self.toggleButton.setFont(font)
+        self.toggleButton.setCursor(QCursor(Qt.PointingHandCursor))
+        self.toggleButton.setLayoutDirection(Qt.LeftToRight)
+        self.toggleButton.setStyleSheet(u"background-image: url(:/resources/images/icons/icon_menu_black.png);")
+
+        self.horizontalLayout_3.addWidget(self.toggleButton)
+
         self.titleRightInfo = QLabel(self.leftBox)
         self.titleRightInfo.setObjectName(u"titleRightInfo")
         sizePolicy2 = QSizePolicy(QSizePolicy.Preferred, QSizePolicy.Expanding)
@@ -1028,7 +1027,7 @@ class Ui_MainWindow(object):
 
         self.extraRightBox = QFrame(self.content)
         self.extraRightBox.setObjectName(u"extraRightBox")
-        self.extraRightBox.setMinimumSize(QSize(0, 0))
+        self.extraRightBox.setMinimumSize(QSize(200, 0))
         self.extraRightBox.setMaximumSize(QSize(0, 16777215))
         self.extraRightBox.setFrameShape(QFrame.NoFrame)
         self.extraRightBox.setFrameShadow(QFrame.Raised)
@@ -1139,7 +1138,6 @@ class Ui_MainWindow(object):
         MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"MainWindow", None))
         self.titleLeftApp.setText(QCoreApplication.translate("MainWindow", u"Genius Software", None))
         self.titleLeftDescription.setText(QCoreApplication.translate("MainWindow", u"Invoice App", None))
-        self.toggleButton.setText(QCoreApplication.translate("MainWindow", u"Hide", None))
         self.btn_home.setText(QCoreApplication.translate("MainWindow", u"Home", None))
         self.btn_new.setText(QCoreApplication.translate("MainWindow", u"New", None))
         self.toggleLeftBox.setText(QCoreApplication.translate("MainWindow", u"Left Box", None))
@@ -1163,6 +1161,7 @@ class Ui_MainWindow(object):
 "<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt; font-weight:600; color:#550000;\">Convert QRC</span></p>\n"
 "<p align=\"center\" style=\" margin-top:12px; "
                         "margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:9pt; color:#550000;\">pyside6-rcc resources.qrc -o resources_rc.py</span></p></body></html>", None))
+        self.toggleButton.setText("")
         self.titleRightInfo.setText(QCoreApplication.translate("MainWindow", u"Modern GUI by Gino with PySide 6", None))
 #if QT_CONFIG(tooltip)
         self.settingsTopBtn.setToolTip(QCoreApplication.translate("MainWindow", u"Settings", None))

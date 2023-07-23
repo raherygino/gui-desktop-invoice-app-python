@@ -1,10 +1,12 @@
 <RCC>
   <qresource prefix="resources">
+    <file>images/icons/icon_settings.png</file>
     <file>images/icons/cil-arrow-bottom.png</file>
     <file>images/icons/cil-file-black.png</file>
     <file>images/icons/cil-home-black.png</file>
     <file>images/icons/cil-save-black.png</file>
     <file>images/icons/cil-x-black.png</file>
+    <file>images/icons/icon_apps_black.png</file>
     <file>images/icons/icon_close_black.png</file>
     <file>images/icons/icon_maximize_black.png</file>
     <file>images/icons/icon_menu_black.png</file>
