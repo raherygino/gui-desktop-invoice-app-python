@@ -7,8 +7,8 @@ pip install PySide6
 
 ## convert .ui to .py & qrc to .py
 ``` console
-pyside6-uic main.ui -o modules/ui_main.py
-pyside6-rcc resources.qrc -o resources_rc.py
+pyside6-uic view/main.ui -o modules/ui_main.py
+pyside6-rcc view/resources.qrc -o modules/resources_rc.py
 ```
 To import resources in <code> modules/ui_main.py </code>
 ```python
