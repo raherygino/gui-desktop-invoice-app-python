@@ -14,3 +14,6 @@ from . ui_functions import *
 
 # APP FUNCTIONS
 from . app_functions import *
+
+# APP CONFIG
+from . app_config import *
